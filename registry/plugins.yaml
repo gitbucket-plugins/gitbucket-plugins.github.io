@@ -2,10 +2,12 @@
   id: h2-backup
   name: H2 Database Backup Plugin
   description: Allows to export h2 database of gitbucket
+  projectURL: https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin
 -
   id: announce
   name: Announce Plugin
   description: Provide announces for gitbucket users and groups
+  projectURL: https://github.com/gitbucket-plugins/gitbucket-announce-plugin
 -
   id: commitgraphs
   name: Commit Graphs
@@ -14,10 +16,12 @@
   id: emoji
   name: Emoji Plugin
   description: Provides Emoji support for GitBucket.
+  projectURL: https://github.com/gitbucket/gitbucket-emoji-plugin
 -
   id: gist
   name: Gist Plugin
   description: Provides Gist feature on GitBucket.
+  projectURL: https://github.com/gitbucket/gitbucket-gist-plugin
 -
   id: rst
   name: ReSTructured text Plugin
