@@ -1,0 +1,47 @@
+[
+	{
+		"id": "h2-backup",
+		"name": "H2 Database Backup Plugin",
+		"description": "Allows to export h2 database of gitbucket"
+	},
+	{
+		"id": "announce",
+		"name": "Announce Plugin",
+		"description": "Provide announces for gitbucket users and groups"
+	},
+	{
+		"id": "commitgraphs",
+		"name": "Commit Graphs",
+		"description": "Viewing the commit count in the graph."
+	},
+	{
+		"id": "emoji",
+		"name": "Emoji Plugin",
+		"description": "Provides Emoji support for GitBucket."
+	},
+	{
+		"id": "gist",
+		"name": "Gist Plugin",
+		"description": "Provides Gist feature on GitBucket."
+	},
+	{
+		"id": "rst",
+		"name": "ReSTructured text Plugin",
+		"description": "Provides ReSTructured text rendering for GitBucket."
+	},
+	{
+		"id": "asciidoctor",
+		"name": "AsciiDoctor Plugin",
+		"description": "Provides AsciiDoc rendering for GitBucket."
+	},
+	{
+		"id": "explorer",
+		"name": "Project explorer Plugin",
+		"description": "Explore Files from the file tree in the repository"
+	},
+	{
+		"id": "network",
+		"name": "Network Plugin",
+		"description": "Provides Network feature on Gitbucket."
+	}
+]
