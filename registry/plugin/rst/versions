@@ -2,6 +2,16 @@
   {
     "version": "0.1.0",
     "downloadURL": "https://github.com/amuramatsu/gitbucket-rst-plugin/releases/download/0.1.0/gitbucket-4.0-rst-plugin-assembly-0.1.0.jar",
-    "gitbucketCompileVersion": 4
+    "gitbucketCompileVersion": 4,
+    "gitbucketCompatibleRange": {
+      "lower": {
+        "bound": 4,
+        "included": true
+      },
+      "upper": {
+        "bound": 4.3,
+        "included": false
+      }
+    }
   }
 ]

@@ -2,6 +2,12 @@
   {
     "version": 1.3,
     "downloadURL": "https://github.com/mrkm4ntr/gitbucket-network-plugin/releases/download/1.3/gitbucket-network-plugin_2.12-1.3.jar",
-    "gitbucketCompileVersion": "4.10.0"
+    "gitbucketCompileVersion": "4.10.0",
+    "gitbucketCompatibleRange": {
+      "lower": {
+        "bound": "4.10.0",
+        "included": true
+      }
+    }
   }
 ]

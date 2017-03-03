@@ -2,6 +2,16 @@
   {
     "version": 0.9,
     "downloadURL": "https://github.com/gitbucket/gitbucket-pages-plugin/releases/download/v0.9/pages-plugin_2.11-0.9.jar",
-    "gitbucketCompileVersion": 4.9
+    "gitbucketCompileVersion": 4.9,
+    "gitbucketCompatibleRange": {
+      "lower": {
+        "bound": 4.9,
+        "included": true
+      },
+      "upper": {
+        "bound": "4.10.0",
+        "included": false
+      }
+    }
   }
 ]

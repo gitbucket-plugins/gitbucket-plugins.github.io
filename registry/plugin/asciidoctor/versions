@@ -2,6 +2,16 @@
   {
     "version": "1.0.1",
     "downloadURL": "https://github.com/asciidoctor/gitbucket-asciidoctor-plugin/releases/download/1.0.1/gitbucket-4.0-asciidoctor-plugin-assembly-1.0.1.jar",
-    "gitbucketCompileVersion": 4
+    "gitbucketCompileVersion": 4,
+    "gitbucketCompatibleRange": {
+      "lower": {
+        "bound": 4,
+        "included": true
+      },
+      "upper": {
+        "bound": 4.3,
+        "included": false
+      }
+    }
   }
 ]

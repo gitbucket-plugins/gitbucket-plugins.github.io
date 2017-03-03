@@ -2,6 +2,12 @@
   {
     "version": "4.4.0",
     "downloadURL": "https://github.com/gitbucket/gitbucket-emoji-plugin/releases/download/4.4.0/gitbucket-emoji-plugin_2.12-4.4.0.jar",
-    "gitbucketCompileVersion": "4.10.0"
+    "gitbucketCompileVersion": "4.10.0",
+    "gitbucketCompatibleRange": {
+      "lower": {
+        "bound": "4.10.0",
+        "included": true
+      }
+    }
   }
 ]
