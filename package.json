@@ -1,0 +1,12 @@
+{
+  "name": "gitbucket-registry",
+  "version": "1.0.0",
+  "description": "registry application for gitbucket",
+  "main": "index.js",
+  "author": "Matthieu Brouillard (http://blog.matthieu.brouillard.fr)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mkdirp": "0.5.1",
+    "node-yaml": "3.0.3"
+  }
+}

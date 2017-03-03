@@ -1,0 +1,95 @@
+-
+  id: h2-backup
+  name: H2 Database Backup Plugin
+  description: Allows to export h2 database of gitbucket
+  projectURL: https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin
+  versions:
+    -
+      version: 1.4.0
+      downloadURL: 'https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin/releases/download/1.4.0/gitbucket-h2-backup-plugin.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: announce
+  name: Announce Plugin
+  description: Provide announces for gitbucket users and groups
+  projectURL: https://github.com/gitbucket-plugins/gitbucket-announce-plugin
+  versions:
+    -
+      version: 1.6.0
+      downloadURL: 'https://github.com/gitbucket-plugins/gitbucket-announce-plugin/releases/download/1.6.0/gitbucket-announce-plugin.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: commitgraphs
+  name: Commit Graphs
+  description: Viewing the commit count in the graph.
+  versions:
+    -
+      version: 4.10.0
+      downloadURL: 'https://github.com/yoshiyoshifujii/gitbucket-commitgraphs-plugin/releases/download/4.10.0/gitbucket-commitgraphs-plugin_2.12-4.10.0.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: emoji
+  name: Emoji Plugin
+  description: Provides Emoji support for GitBucket.
+  projectURL: https://github.com/gitbucket/gitbucket-emoji-plugin
+  versions:
+    -
+      version: 4.4.0
+      downloadURL: 'https://github.com/gitbucket/gitbucket-emoji-plugin/releases/download/4.4.0/gitbucket-emoji-plugin_2.12-4.4.0.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: gist
+  name: Gist Plugin
+  description: Provides Gist feature on GitBucket.
+  projectURL: https://github.com/gitbucket/gitbucket-gist-plugin
+  versions:
+    -
+      version: 4.6.0
+      downloadURL: 'https://github.com/gitbucket/gitbucket-gist-plugin/releases/download/4.6.0/gitbucket-gist-plugin_2.12-4.6.0.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: rst
+  name: ReSTructured text Plugin
+  description: Provides ReSTructured text rendering for GitBucket.
+  versions:
+    -
+      version: 0.1.0
+      downloadURL: 'https://github.com/amuramatsu/gitbucket-rst-plugin/releases/download/0.1.0/gitbucket-4.0-rst-plugin-assembly-0.1.0.jar'
+      gitbucketCompileVersion: 4.0
+-
+  id: asciidoctor
+  name: AsciiDoctor Plugin
+  description: Provides AsciiDoc rendering for GitBucket.
+  versions:
+    -
+      version: 1.0.1
+      downloadURL: 'https://github.com/asciidoctor/gitbucket-asciidoctor-plugin/releases/download/1.0.1/gitbucket-4.0-asciidoctor-plugin-assembly-1.0.1.jar'
+      gitbucketCompileVersion: 4.0
+-
+  id: explorer
+  name: Project explorer Plugin
+  description: Explore Files from the file tree in the repository
+  versions:
+    -
+      version: 2.0.0
+      downloadURL: 'https://github.com/tomoki1207/gitbucket-explorer-plugin/releases/download/2.0.0/gitbucket-explorer-plugin_2.12-2.0.0.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: network
+  name: Network Plugin
+  description: Provides Network feature on Gitbucket.
+  versions:
+    -
+      version: 1.3
+      downloadURL: 'https://github.com/mrkm4ntr/gitbucket-network-plugin/releases/download/1.3/gitbucket-network-plugin_2.12-1.3.jar'
+      gitbucketCompileVersion: 4.10.0
+-
+  id: pages
+  name: Pages Plugin
+  description: Project pages for gitbucket.
+  versions:
+    -
+      version: 0.9
+      downloadURL: 'https://github.com/gitbucket/gitbucket-pages-plugin/releases/download/v0.9/pages-plugin_2.11-0.9.jar'
+      gitbucketCompileVersion: 4.9
+

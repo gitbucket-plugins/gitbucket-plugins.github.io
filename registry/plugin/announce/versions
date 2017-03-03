@@ -1,0 +1,7 @@
+[
+  {
+    "version": "1.6.0",
+    "downloadURL": "https://github.com/gitbucket-plugins/gitbucket-announce-plugin/releases/download/1.6.0/gitbucket-announce-plugin.jar",
+    "gitbucketCompileVersion": "4.10.0"
+  }
+]
