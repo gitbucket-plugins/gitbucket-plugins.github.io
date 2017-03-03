@@ -83,6 +83,14 @@
         upper:
           bound: 4.3
           included: false
+    -
+      version: 0.2.0
+      downloadURL: 'https://github.com/amuramatsu/gitbucket-rst-plugin/releases/download/0.2.0/gitbucket-4.10-rst-plugin-assembly-0.2.0.jar'
+      gitbucketCompileVersion: 4.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10
+          included: true
 -
   id: asciidoctor
   name: AsciiDoctor Plugin
