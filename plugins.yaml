@@ -8,6 +8,10 @@
       version: 1.4.0
       downloadURL: 'https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin/releases/download/1.4.0/gitbucket-h2-backup-plugin.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: announce
   name: Announce Plugin
@@ -18,6 +22,10 @@
       version: 1.6.0
       downloadURL: 'https://github.com/gitbucket-plugins/gitbucket-announce-plugin/releases/download/1.6.0/gitbucket-announce-plugin.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: commitgraphs
   name: Commit Graphs
@@ -27,6 +35,10 @@
       version: 4.10.0
       downloadURL: 'https://github.com/yoshiyoshifujii/gitbucket-commitgraphs-plugin/releases/download/4.10.0/gitbucket-commitgraphs-plugin_2.12-4.10.0.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: emoji
   name: Emoji Plugin
@@ -37,6 +49,10 @@
       version: 4.4.0
       downloadURL: 'https://github.com/gitbucket/gitbucket-emoji-plugin/releases/download/4.4.0/gitbucket-emoji-plugin_2.12-4.4.0.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: gist
   name: Gist Plugin
@@ -47,6 +63,10 @@
       version: 4.6.0
       downloadURL: 'https://github.com/gitbucket/gitbucket-gist-plugin/releases/download/4.6.0/gitbucket-gist-plugin_2.12-4.6.0.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: rst
   name: ReSTructured text Plugin
@@ -56,6 +76,13 @@
       version: 0.1.0
       downloadURL: 'https://github.com/amuramatsu/gitbucket-rst-plugin/releases/download/0.1.0/gitbucket-4.0-rst-plugin-assembly-0.1.0.jar'
       gitbucketCompileVersion: 4.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.0
+          included: true
+        upper:
+          bound: 4.3
+          included: false
 -
   id: asciidoctor
   name: AsciiDoctor Plugin
@@ -65,6 +92,13 @@
       version: 1.0.1
       downloadURL: 'https://github.com/asciidoctor/gitbucket-asciidoctor-plugin/releases/download/1.0.1/gitbucket-4.0-asciidoctor-plugin-assembly-1.0.1.jar'
       gitbucketCompileVersion: 4.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.0
+          included: true
+        upper:
+          bound: 4.3
+          included: false
 -
   id: explorer
   name: Project explorer Plugin
@@ -74,6 +108,10 @@
       version: 2.0.0
       downloadURL: 'https://github.com/tomoki1207/gitbucket-explorer-plugin/releases/download/2.0.0/gitbucket-explorer-plugin_2.12-2.0.0.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: network
   name: Network Plugin
@@ -83,6 +121,10 @@
       version: 1.3
       downloadURL: 'https://github.com/mrkm4ntr/gitbucket-network-plugin/releases/download/1.3/gitbucket-network-plugin_2.12-1.3.jar'
       gitbucketCompileVersion: 4.10.0
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.10.0
+          included: true
 -
   id: pages
   name: Pages Plugin
@@ -92,4 +134,10 @@
       version: 0.9
       downloadURL: 'https://github.com/gitbucket/gitbucket-pages-plugin/releases/download/v0.9/pages-plugin_2.11-0.9.jar'
       gitbucketCompileVersion: 4.9
-
+      gitbucketCompatibleRange:
+        lower:
+          bound: 4.9
+          included: true
+        upper:
+          bound: 4.10.0
+          included: false
