@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "node"
+branches:
+  only:
+  - master
 install: npm install
 before_script:
   - git config --global user.email "gitbucket.plugins@gitbucket-plugins.github.io"
@@ -11,7 +14,7 @@ after_success:
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git add .
   - git commit -m "updating generated plugins data"
-  - git push origin master
+  - git push origin HEAD:master
 env:
   global:
     secure: FmaHmw5+ARBqzg3Vlp3/BV/WVD3z54ZtlT+ksZv+ASC2HpMcDp4bd6BD5vLLHBmpimKDKChDuYsGdj6IR1Q04rK2xy3WyEntyT8rjqnB0AmQIzvybcCi2rgzDrZUxNnCeGtziNWg7ixumeFe9m0MUQ0Rn762vMT70aEz9wChZym6quWJSomkTUCBfMNhcmxjSCkQAySwZztKUaKMoPXSMcGuYyn9I87g3ToD64HjxqaVRQJg+ZlahcGbn/E0NHtva92HogFAtn1AjQhlgmy1d9KnUJIds9je1G1YAoaDXB83iOTxIdKdUVWXTAYzG/KsVQC7s/QBgox2IYURoyK9mbrl6+YbURe0yI2pN7oqqlLjpifTcYLKPXOo2b0lHA6mWVittmbdA7+qdC4miGLxIGWgYKt7DexJ/NOUOj4xEa5A8+Hkg7nkXKI6vTOfJ694KLZfVkbXuqblEee1MCv4DhGcka3DUkaL61mVJMxKr2v+bneO/sWLlpwmN0C1aE6nJNQga5kWZHJ01xrUVlbSX3fdHomjvZ6vueRHMr2Z6MJmrPZiZt++VVvVeVPP6Rd8sneB7ikTBKMGi9Mhbv7DTi4tfEZ9YmfxDuQVrNyOYJDHC9ycer0ixRVGGM6eonYyym9EcuZNK8rZq63+PMYuEpCSWc7h7Ti4YyMmFKNwED4=
