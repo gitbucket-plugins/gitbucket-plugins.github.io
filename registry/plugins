@@ -190,6 +190,17 @@
     "description": "Project pages for gitbucket.",
     "versions": [
       {
+        "version": 1,
+        "downloadURL": "https://github.com/gitbucket/gitbucket-pages-plugin/releases/download/v1.0/pages.jar",
+        "gitbucketCompileVersion": 4.1,
+        "gitbucketCompatibleRange": {
+          "lower": {
+            "bound": 4.1,
+            "included": true
+          }
+        }
+      },
+      {
         "version": 0.9,
         "downloadURL": "https://github.com/gitbucket/gitbucket-pages-plugin/releases/download/v0.9/pages-plugin_2.11-0.9.jar",
         "gitbucketCompileVersion": 4.9,
