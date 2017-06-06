@@ -2,3 +2,6 @@ _site
 .sass-cache
 .idea/
 /.project
+*.iml
+*.ipr
+*.iws
