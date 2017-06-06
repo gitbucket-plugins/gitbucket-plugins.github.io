@@ -174,12 +174,13 @@
 }
 
 .plugin-list {
-    list-style: none;
+    list-style: none; /* Remove default numbering */
+    counter-reset: li; /* Initiate a counter */
     
     > li {
         display: inline-block;
-        width: 300px;
-        height: 200px;
+        width: 400px;
+        height: 170px;
         vertical-align: top;
         margin-right: 20px;
         margin-bottom: 10px;
@@ -192,6 +193,13 @@
             margin: 15px;
         }
     }
+}
+
+.plugin-list > li:before {
+    content: "#" counter(li);
+    counter-increment: li;
+    position: relative;
+    color: #ccc
 }
 
 .post-list {
