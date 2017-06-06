@@ -1,7 +1,7 @@
 # Site settings
-title: gitbucket community plugins
+title: GitBucket Community Plugins
 description: > # this means to ignore newlines until "baseurl:"
-  Community homepage for gitbucket plugins. Extend your git and gitbucket experience with cool community driven functionnalities
+  Community homepage for GitBucket plugins. Extend your GIT and GitBucket experience with cool community driven functionnalities.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gitbucket-plugins.github.io/" # the base hostname & protocol for your site
 github_organization:  gitbucket-plugins
