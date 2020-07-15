@@ -231,12 +231,17 @@
 }
 
 .category-dropdown {
-    width: 200px;
-    height: 40px;
+    width: 60%;
+    height: 35px;
     border-color: rgb(235, 230, 230);
     font-size: 15px;
-    position: relative;
 }
+
+@media screen and (max-width: 600px) {
+    .dropdown {
+        display: none;
+    }
+  }
 
 html {
     scroll-behavior: smooth;
