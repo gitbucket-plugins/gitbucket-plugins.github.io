@@ -231,3 +231,15 @@
       url: https://github.com/onukura/gitbucket-geojson-plugin
       icon: fa fa-map-marker
       distributed: false
+
+    - name: CsvTsv plugin
+      description: A plugin for rendering csv and tsv files.
+      url: https://github.com/onukura/gitbucket-csvtsv-plugin
+      icon: fa fa-table
+      distributed: false
+
+    - name: SMILES plugin
+      description: A plugin for rendering chemical language SMILES.
+      url: https://github.com/onukura/gitbucket-smiles-plugin
+      icon: fa fa-smile-o
+      distributed: false
