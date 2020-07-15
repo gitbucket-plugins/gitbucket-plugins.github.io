@@ -1,185 +1,233 @@
-- name: Announce plugin
-  description: Send announcements via email to groups of users, e.g. for maintenance.
-  url: https://github.com/gitbucket-plugins/gitbucket-announce-plugin
-  icon: fa fa-bullhorn
-  distributed: false
+- name: Nortification
 
-- name: H2 Backup plugin
-  description: Backup functionality of the H2 Database used by GitBucket.
-  url: https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin
-  icon: fa fa-database
-  distributed: false
+  id: nortification
 
-- name: Desktop Notification plugin
-  description: Notify GitBucket activity directly on the desktop.
-  url: https://github.com/yoshiyoshifujii/gitbucket-desktopnotify-plugin
-  icon: fa fa-bell
-  distributed: false
+  plugins:
 
-- name: Gist plugin
-  description: Add code snippet Gist-like functionality to GitBucket.
-  url: https://github.com/gitbucket/gitbucket-gist-plugin
-  icon: fa fa-file-code-o
-  distributed: true
+    - name: Announce plugin
+      description: Send announcements via email to groups of users, e.g. for maintenance.
+      url: https://github.com/gitbucket-plugins/gitbucket-announce-plugin
+      icon: fa fa-bullhorn
+      distributed: false
 
-- name: Commits Graph plugin
-  description: Add commit graph views to GitBucket.
-  url: https://github.com/yoshiyoshifujii/gitbucket-commitgraphs-plugin
-  icon: fa fa-line-chart
-  distributed: false
+    - name: Desktop Notification plugin
+      description: Notify GitBucket activity directly on the desktop.
+      url: https://github.com/yoshiyoshifujii/gitbucket-desktopnotify-plugin
+      icon: fa fa-bell
+      distributed: false
 
-- name: AsciiDoc plugin
-  description: Add AsciiDoc rendering capabilities to GitBucket.
-  url: https://github.com/lefou/gitbucket-asciidoctor-plugin
-  icon: fa fa-file-text
-  distributed: false
+    - name: Email Notifications plugin
+      description: GitBucket plugin to send Email notifications.
+      url: https://github.com/gitbucket/gitbucket-notifications-plugin
+      icon: fa fa-envelope
+      distributed: true
 
-- name: Bugspots plugin
-  description: Add Google bugspots functionality to GitBucket.
-  url: https://github.com/yoshiyoshifujii/gitbucket-bugspots-plugin
-  icon: fa fa-bug
-  distributed: false
+- name: Analysis
 
-- name: Pages plugin
-  description: Project Pages for GitBucket.
-  url: https://github.com/yaroot/gitbucket-pages-plugin
-  icon: fa fa-book
-  distributed: true
+  id: analysis
 
-- name: Network plugin
-  description: Network graph for GitBucket.
-  url: https://github.com/mrkm4ntr/gitbucket-network-plugin
-  icon: fa fa-code-fork
-  distributed: false
+  plugins:
 
-- name: Emoji plugin
-  description: Emoji support for GitBucket.
-  url: https://github.com/gitbucket/gitbucket-emoji-plugin
-  icon: fa fa-smile-o
-  distributed: true
+    - name: Commits Graph plugin
+      description: Add commit graph views to GitBucket.
+      url: https://github.com/yoshiyoshifujii/gitbucket-commitgraphs-plugin
+      icon: fa fa-line-chart
+      distributed: false
 
-- name: RST plugin
-  description: ReSTructured text renderer for GitBucket.
-  url: https://github.com/amuramatsu/gitbucket-rst-plugin
-  icon: fa fa-file-text
-  distributed: false
+    - name: Bugspots plugin
+      description: Add Google bugspots functionality to GitBucket.
+      url: https://github.com/yoshiyoshifujii/gitbucket-bugspots-plugin
+      icon: fa fa-bug
+      distributed: false
 
-- name: Explorer plugin
-  description: Explorer like navigation side panel for your projects.
-  url: https://github.com/gitbucket-plugins/gitbucket-explorer-plugin
-  icon: fa fa-list-alt
-  distributed: false
+    - name: Network plugin
+      description: Network graph for GitBucket.
+      url: https://github.com/mrkm4ntr/gitbucket-network-plugin
+      icon: fa fa-code-fork
+      distributed: false
 
-- name: FESS plugin
-  description: Fast enterprise search for GitBucket using a FESS server.
-  url: https://github.com/codelibs/gitbucket-fess-plugin
-  icon: fa fa-search
-  distributed: false
+    - name: FESS plugin
+      description: Fast enterprise search for GitBucket using a FESS server.
+      url: https://github.com/codelibs/gitbucket-fess-plugin
+      icon: fa fa-search
+      distributed: false
 
-- name: PlantUML plugin
-  description: Render PlantUML files in GitBucket.
-  url: https://github.com/nus/gitbucket-plantuml-plugin
-  icon: fa fa-object-group
-  distributed: false
+- name: Maintenance
 
-- name: Monitoring plugin
-  description: Monitors and displays statistics about the running GitBucket instance.
-  url: https://github.com/YoshinoriN/gitbucket-monitoring-plugin
-  icon: fa fa-server
-  distributed: false
+  id: maintenance
 
-- name: HTML5 Media plugin
-  description: Renders HTML5 Media (Audio/Video/PDF) inline in GitBucket.
-  url: https://github.com/kounoike/gitbucket-html5media-plugin
-  icon: fa fa-html5
-  distributed: false
+  plugins:
 
-- name: Jupyter plugin
-  description: GitBucket plugin for rendering Jupyter or IPython files.
-  url: https://github.com/kounoike/gitbucket-ipynb-plugin
-  icon: fa fa-ravelry
-  distributed: false
+    - name: Monitoring plugin
+      description: Monitors and displays statistics about the running GitBucket instance.
+      url: https://github.com/YoshinoriN/gitbucket-monitoring-plugin
+      icon: fa fa-server
+      distributed: false
 
-- name: Email Notifications plugin
-  description: GitBucket plugin to send Email notifications.
-  url: https://github.com/gitbucket/gitbucket-notifications-plugin
-  icon: fa fa-envelope
-  distributed: true
+    - name: H2 Backup plugin
+      description: Backup functionality of the H2 Database used by GitBucket.
+      url: https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin
+      icon: fa fa-database
+      distributed: false
 
-- name: CI plugin
-  description: GitBucket plug-in that adds simple CI ability to GitBucket.
-  url: https://github.com/takezoe/gitbucket-ci-plugin
-  icon: fa fa-cog
-  distributed: false
+    - name: H2Console plugin
+      description: A GitBucket plugin that adds H2 console to the administration console.
+      url: https://github.com/takezoe/gitbucket-h2console-plugin
+      icon: fa fa-table
+      distributed: false
 
-- name: Maven Repository plugin
-  description: GitBucket plugin that provides Maven repository hosting on GitBucket.
-  url: https://github.com/takezoe/gitbucket-maven-repository-plugin
-  icon: fa fa-cubes
-  distributed: false
+    - name: Backup plugin
+      description: Plugin providing backup functionality for GitBucket.
+      url: https://github.com/jyuch/gitbucket-backup-plugin
+      icon: fa fa-floppy-o
+      distributed: false
 
-- name: Mirror plugin
-  description: This plugin adds repository mirroring to GitBucket.
-  url: https://github.com/alexandremenif/gitbucket-mirror-plugin
-  icon: fa fa-copy
-  distributed: false
+    - name: Logs Viewer plugin
+      description: A plugin allowing to view and control GitBucket logs.
+      url: https://github.com/YoshinoriN/gitbucket-application-logs-plugin
+      icon: fa fa-file-text-o
+      distributed: false
 
-- name: H2Console plugin
-  description: A GitBucket plugin that adds H2 console to the administration console.
-  url: https://github.com/takezoe/gitbucket-h2console-plugin
-  icon: fa fa-table
-  distributed: false
+- name: CI/CD
 
-- name: Backup plugin
-  description: Plugin providing backup functionality for GitBucket.
-  url: https://github.com/jyuch/gitbucket-backup-plugin
-  icon: fa fa-floppy-o
-  distributed: false
+  id: cicd
 
-- name: Logs Viewer plugin
-  description: A plugin allowing to view and control GitBucket logs.
-  url: https://github.com/YoshinoriN/gitbucket-application-logs-plugin
-  icon: fa fa-file-text-o
-  distributed: false
+  plugins:
 
-- name: Kanban Board plugin
-  description: A plugin for Kanban style issue management in GitBucket.
-  url: https://github.com/kasancode/gitbucket-label-kanban-plugin
-  icon: fa fa-check
-  distributed: false
+    - name: CI plugin
+      description: GitBucket plug-in that adds simple CI ability to GitBucket.
+      url: https://github.com/takezoe/gitbucket-ci-plugin
+      icon: fa fa-cog
+      distributed: false
 
-- name: Gantt Chart plugin
-  description: A plugin for rendering a Gantt Chart view of the GitBucket issues.
-  url: https://github.com/kasancode/gitbucket-gantt-plugin
-  icon: fa fa-sliders
-  distributed: false
+- name: Utilities
 
-- name: Swagger plugin
-  description: A plugin for rendering a Swagger (OpenAPI) files.
-  url: https://github.com/onukura/gitbucket-swagger-plugin
-  icon: fa fa-ellipsis-h
-  distributed: false
+  id: util
 
-- name: R Markdown plugin
-  description: A plugin for rendering a R Markdown files.
-  url: https://github.com/onukura/gitbucket-rmarkdown-plugin
-  icon: fa fa-registered
-  distributed: false
+  plugins:
 
-- name: MathJax plugin
-  description: A plugin for rendering a markdown files with MathJax.
-  url: https://github.com/onukura/gitbucket-mathjax-plugin
-  icon: fa fa-superscript
-  distributed: false
+    - name: Gist plugin
+      description: Add code snippet Gist-like functionality to GitBucket.
+      url: https://github.com/gitbucket/gitbucket-gist-plugin
+      icon: fa fa-file-code-o
+      distributed: true
+      
+    - name: Pages plugin
+      description: Project Pages for GitBucket.
+      url: https://github.com/yaroot/gitbucket-pages-plugin
+      icon: fa fa-book
+      distributed: true
 
-- name: 3D file plugin
-  description: A plugin for rendering 3D files.
-  url: https://github.com/onukura/gitbucket-3dfile-plugin
-  icon: fa fa-cube
-  distributed: false
+    - name: Maven Repository plugin
+      description: GitBucket plugin that provides Maven repository hosting on GitBucket.
+      url: https://github.com/takezoe/gitbucket-maven-repository-plugin
+      icon: fa fa-cubes
+      distributed: false
 
-- name: GeoJSON plugin
-  description: A plugin for rendering GeoJSON files.
-  url: https://github.com/onukura/gitbucket-geojson-plugin
-  icon: fa fa-map-marker
-  distributed: false
+    - name: Mirror plugin
+      description: This plugin adds repository mirroring to GitBucket.
+      url: https://github.com/alexandremenif/gitbucket-mirror-plugin
+      icon: fa fa-copy
+      distributed: false
+
+- name: UI
+
+  id: ui
+
+  plugins:
+
+    - name: Emoji plugin
+      description: Emoji support for GitBucket.
+      url: https://github.com/gitbucket/gitbucket-emoji-plugin
+      icon: fa fa-smile-o
+      distributed: true
+
+    - name: Explorer plugin
+      description: Explorer like navigation side panel for your projects.
+      url: https://github.com/gitbucket-plugins/gitbucket-explorer-plugin
+      icon: fa fa-list-alt
+      distributed: false
+
+- name: Project Management
+
+  id: proj
+
+  plugins:
+
+    - name: Kanban Board plugin
+      description: A plugin for Kanban style issue management in GitBucket.
+      url: https://github.com/kasancode/gitbucket-label-kanban-plugin
+      icon: fa fa-check
+      distributed: false
+
+    - name: Gantt Chart plugin
+      description: A plugin for rendering a Gantt Chart view of the GitBucket issues.
+      url: https://github.com/kasancode/gitbucket-gantt-plugin
+      icon: fa fa-sliders
+      distributed: false
+
+- name: File Viewer
+
+  id: fileviewer
+  
+  plugins:
+  
+    - name: AsciiDoc plugin
+      description: Add AsciiDoc rendering capabilities to GitBucket.
+      url: https://github.com/lefou/gitbucket-asciidoctor-plugin
+      icon: fa fa-file-text
+      distributed: false
+
+    - name: RST plugin
+      description: ReSTructured text renderer for GitBucket.
+      url: https://github.com/amuramatsu/gitbucket-rst-plugin
+      icon: fa fa-file-text
+      distributed: false
+
+    - name: PlantUML plugin
+      description: Render PlantUML files in GitBucket.
+      url: https://github.com/nus/gitbucket-plantuml-plugin
+      icon: fa fa-object-group
+      distributed: false
+
+    - name: HTML5 Media plugin
+      description: Renders HTML5 Media (Audio/Video/PDF) inline in GitBucket.
+      url: https://github.com/kounoike/gitbucket-html5media-plugin
+      icon: fa fa-html5
+      distributed: false
+
+    - name: Jupyter plugin
+      description: GitBucket plugin for rendering Jupyter or IPython files.
+      url: https://github.com/kounoike/gitbucket-ipynb-plugin
+      icon: fa fa-ravelry
+      distributed: false
+
+    - name: Swagger plugin
+      description: A plugin for rendering a Swagger (OpenAPI) files.
+      url: https://github.com/onukura/gitbucket-swagger-plugin
+      icon: fa fa-ellipsis-h
+      distributed: false
+
+    - name: R Markdown plugin
+      description: A plugin for rendering a R Markdown files.
+      url: https://github.com/onukura/gitbucket-rmarkdown-plugin
+      icon: fa fa-registered
+      distributed: false
+
+    - name: MathJax plugin
+      description: A plugin for rendering a markdown files with MathJax.
+      url: https://github.com/onukura/gitbucket-mathjax-plugin
+      icon: fa fa-superscript
+      distributed: false
+
+    - name: 3D file plugin
+      description: A plugin for rendering 3D files.
+      url: https://github.com/onukura/gitbucket-3dfile-plugin
+      icon: fa fa-cube
+      distributed: false
+
+    - name: GeoJSON plugin
+      description: A plugin for rendering GeoJSON files.
+      url: https://github.com/onukura/gitbucket-geojson-plugin
+      icon: fa fa-map-marker
+      distributed: false

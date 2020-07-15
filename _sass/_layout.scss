@@ -5,9 +5,11 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: white;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: sticky;
+    top: 0;
     
     .logo {
         width: 60px;
@@ -221,7 +223,24 @@
     font-size: 24px;
 }
 
+.category-title {
+    font-size: 26px;
+    color: gray;
+    margin-top: -30px;
+    padding-top: 70px;
+}
 
+.category-dropdown {
+    width: 200px;
+    height: 40px;
+    border-color: rgb(235, 230, 230);
+    font-size: 15px;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 /**
  * Posts
