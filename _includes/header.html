@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="site-header" id="navbar">
 
   <div class="wrapper">
       <a class="site-title" href="{{ site.baseurl }}/"><img class="logo" src="images/gitbucket-plugins.png"></img>{{ site.title }}</a>
@@ -11,6 +11,13 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
+
+      <label for="category-selector">Category:</label>
+      <select class="category-dropdown" name="category-selector" onChange="location.href=value;">
+        {% for category in site.data.plugins %}
+        <option value="#{{ category.id }}">{{ category.name }}</option>
+        {% endfor %}
+      </select>
 
       <div class="trigger">
 <!--          
