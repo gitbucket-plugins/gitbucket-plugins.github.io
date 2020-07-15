@@ -238,8 +238,8 @@
       icon: fa fa-table
       distributed: false
 
-    - name: Smiles plugin
-      description: A plugin for rendering smiles files.
+    - name: SMILES plugin
+      description: A plugin for rendering chemical language SMILES.
       url: https://github.com/onukura/gitbucket-smiles-plugin
       icon: fa fa-smile-o
       distributed: false
