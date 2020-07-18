@@ -12,22 +12,15 @@
         </svg>
       </a>
 
-      <label for="category-selector">Category:</label>
-      <select class="category-dropdown" name="category-selector" onChange="location.href=value;">
-        {% for category in site.data.plugins %}
-        <option value="#{{ category.id }}">{{ category.name }}</option>
-        {% endfor %}
-      </select>
-
-      <div class="trigger">
-<!--          
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
--->
+      <div class="dropdown">
+        <label for="category-selector" class="category-dropdown-label">Category:</label>
+        <select class="category-dropdown" name="category-selector" onChange="location.href=value;">
+          {% for category in site.data.plugins %}
+          <option value="#{{ category.id }}">{{ category.name }}</option>
+          {% endfor %}
+        </select>
       </div>
+
     </nav>
 
   </div>
