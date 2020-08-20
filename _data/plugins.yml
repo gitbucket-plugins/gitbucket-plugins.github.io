@@ -130,6 +130,12 @@
       icon: fa fa-copy
       distributed: false
 
+    - name: Embedded snippets plugin
+      description: Show link to code as snippet. 
+      url: https://github.com/onukura/gitbucket-embedding-plugin
+      icon: fa fa-list-alt
+      distributed: false
+
 - name: UI
 
   id: ui
