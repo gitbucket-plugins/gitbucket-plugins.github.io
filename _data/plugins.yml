@@ -1,6 +1,6 @@
-- name: Nortification
+- name: Notification
 
-  id: nortification
+  id: notification
 
   plugins:
 
