@@ -100,6 +100,12 @@
       icon: fa fa-cog
       distributed: false
 
+    - name: Git Hooks plugin
+      description: A GitBucket plugin that enables a limited set of ~/.git/hooks.
+      url: https://github.com/marshalhayes/gitbucket-githooks-plugin
+      icon: fa fa-cog
+      distributed: false
+
 - name: Utilities
 
   id: util
