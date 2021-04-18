@@ -160,6 +160,12 @@
       icon: fa fa-list-alt
       distributed: false
 
+    - name: Code Highlighter plugin
+      description: Enhanced code syntax highlighting and additional themes for GitBucket.
+      url: https://github.com/kaz-on/gitbucket-code-highlighter-plugin
+      icon: fa fa-code
+      distributed: false
+
 - name: Project Management
 
   id: proj
