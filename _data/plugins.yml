@@ -261,3 +261,9 @@
       url: https://github.com/onukura/gitbucket-smiles-plugin
       icon: fa fa-smile-o
       distributed: false
+
+    - name: Draw.io plugin
+      description: A plugin for rendering Draw.io files.
+      url: https://github.com/onukura/gitbucket-drawio-plugin
+      icon: fa fa-paint-brush
+      distributed: false
