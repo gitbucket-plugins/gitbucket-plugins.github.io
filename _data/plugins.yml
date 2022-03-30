@@ -166,6 +166,12 @@
       icon: fa fa-code
       distributed: false
 
+    - name: Popovers plugin
+      description: Show popover preview on links to issues and pull requests.
+      url: https://github.com/kaz-on/gitbucket-popovers-plugin
+      icon: fa fa-comment
+      distributed: false
+
 - name: Project Management
 
   id: proj
