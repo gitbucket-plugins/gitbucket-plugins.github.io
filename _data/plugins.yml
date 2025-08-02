@@ -273,3 +273,9 @@
       url: https://github.com/onukura/gitbucket-drawio-plugin
       icon: fa fa-paint-brush
       distributed: false
+
+    - name: Markdown Enhanced plugin
+      description: Enhance Markdown support of GitBucket
+      url: https://github.com/yasumichi/gitbucket-markdown-enhanced
+      icon: fa fa-file-text
+      distributed: false
